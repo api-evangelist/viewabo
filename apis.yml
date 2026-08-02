@@ -1,7 +1,27 @@
 aid: viewabo
 name: Viewabo
-description: Viewabo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Viewabo is an interactive visual product-support platform for modern customer
+  experience, product, and field-service teams. A support agent sends a browser
+  link to anyone on-site; the customer taps it and shares their smartphone camera
+  in real time — with no app download and no account required — so the team can
+  see the problem live through the customer's camera, guide a remote fix, and
+  confirm whether an on-site dispatch is actually needed. Hardware makers,
+  equipment manufacturers, and medical/industrial product teams use it to cut
+  truck rolls, resolve tickets faster, and triage before dispatch. Pricing is
+  usage-based per video session with unlimited seats.
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.viewabo.com/images/logo-reverse-c4a697b7.png
 url: https://raw.githubusercontent.com/api-evangelist/viewabo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Visual Support
+- Customer Support
+- Field Service
+- Remote Assistance
+- Video Support
+- Customer Experience
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,30 @@ maintainers:
 common:
 - type: Website
   url: https://viewabo.com
+- type: Pricing
+  url: https://www.viewabo.com/pricing
+- type: SignUp
+  url: https://app.viewabo.com/signup
+- type: Login
+  url: https://app.viewabo.com/users/login
+- type: Support
+  url: https://support.viewabo.com
+- type: Blog
+  url: https://blog.viewabo.com
+- type: TermsOfService
+  url: https://www.viewabo.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.viewabo.com/legal/privacy-policy
+- type: Security
+  url: https://www.viewabo.com/legal/security
+- type: VulnerabilityDisclosure
+  url: security/viewabo-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/viewabo-domain-security.yml
+- type: LLMsTxt
+  url: llms/viewabo-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
