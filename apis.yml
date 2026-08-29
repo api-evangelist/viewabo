@@ -10,6 +10,17 @@ description: >-
   equipment manufacturers, and medical/industrial product teams use it to cut
   truck rolls, resolve tickets faster, and triage before dispatch. Pricing is
   usage-based per video session with unlimited seats.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: open
