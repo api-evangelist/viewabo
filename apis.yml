@@ -46,7 +46,7 @@ modified: '2026-07-21'
 tags:
 - Company
 - Visual Support
-- Customer-Support
+- Customer Support
 - Field Service
 - Remote Assistance
 - Video Support
@@ -59,6 +59,7 @@ tags_raw:
 - Remote Assistance
 - Video Support
 - Customer Experience
+- Customer-Support
 apis: []
 maintainers:
 - FN: Kin Lane
