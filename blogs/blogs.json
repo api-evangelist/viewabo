@@ -2,13 +2,19 @@
   "repo": "viewabo",
   "feeds": [
     {
-      "source": "https://support.viewabo.com",
-      "feed_url": "https://support.viewabo.com",
+      "source": "https://blog.viewabo.com",
+      "feed_url": "https://blog.viewabo.com/feed/",
       "title": "",
+      "saved": 5,
+      "method": "discovered"
+    },
+    {
+      "source": "https://support.viewabo.com",
+      "feed_url": "",
       "saved": 0,
-      "method": "none"
+      "skipped": "community-shaped; a vendor feed already saved this run (roadmap#239)"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "post_count": 5,
+  "fetched": "2026-10-10T13:15:00Z"
 }
