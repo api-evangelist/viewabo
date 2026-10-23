@@ -5,16 +5,17 @@
       "source": "https://blog.viewabo.com",
       "feed_url": "https://blog.viewabo.com/feed/",
       "title": "",
-      "saved": 5,
+      "saved": 0,
       "method": "discovered"
     },
     {
-      "source": "https://support.viewabo.com",
-      "feed_url": "",
+      "source": "https://blog.viewabo.com/feed/",
+      "feed_url": "https://blog.viewabo.com/feed/",
+      "title": "",
       "saved": 0,
-      "skipped": "community-shaped; a vendor feed already saved this run (roadmap#239)"
+      "method": "feed"
     }
   ],
-  "post_count": 5,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 10,
+  "fetched": "2026-10-17T14:53:57Z"
 }
